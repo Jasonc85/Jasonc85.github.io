@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>彙整：2014/12 | Jasonc85&#39;s blog</title>
+  <title>Archives: 2014/12 | Jasonc85&#39;s blog</title>
   <meta name="author" content="Jason Cheng">
   
   <meta name="description" content="Fortunately, or unfortunately, no one will see your struggle">
@@ -67,32 +67,19 @@
     <aside id="sidebar" class="alignright">
   <div class="search">
   <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="搜尋">
+    <input type="search" name="q" results="0" placeholder="Search">
     <input type="hidden" name="q" value="site:yoursite.com">
   </form>
 </div>
 
   
 <div class="widget tag">
-  <h3 class="title">分類</h3>
+  <h3 class="title">Categories</h3>
   <ul class="entry">
   
     <li><a href="/categories/Linux/">Linux</a><small>1</small></li>
   
     <li><a href="/categories/随笔/">随笔</a><small>1</small></li>
-  
-  </ul>
-</div>
-
-
-  
-<div class="widget tag">
-  <h3 class="title">標籤</h3>
-  <ul class="entry">
-  
-    <li><a href="/tags/Linux/">Linux</a><small>1</small></li>
-  
-    <li><a href="/tags/周记，-随笔/">周记， 随笔</a><small>1</small></li>
   
   </ul>
 </div>
@@ -106,6 +93,101 @@
 <li>chengzengwei@gmail.com</li>
 </ul>
 </div>
+
+  <div class="widget tag">
+    <h3 class="title">Calendar</h3>
+    <div class="Calendar">
+      <div id="idCalendarPre">&lt;&lt;</div>
+      <div id="idCalendarNext">&gt;&gt;</div>
+      <span id="idCalendarYear">2008</span>年<span id="idCalendarMonth">8</span>月
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <td>日</td>
+            <td>一</td>
+            <td>二</td>
+            <td>三</td>
+            <td>四</td>
+            <td>五</td>
+            <td>六</td>
+          </tr>
+        </thead>
+        <tbody id="idCalendar">
+        </tbody>
+      </table>
+    </div>
+</div>
+<script language="JavaScript">
+var cale = new Calendar("idCalendar", {
+    //howiefh
+    /* SelectDay: new Date().setDate(10), */
+    SelectDay: new Date().setDate(this.Date),
+    onSelectDay: function(o){ o.className = "onSelect"; },
+    //howiefh
+    onToday: function(o){ o.className = "onToday"; },
+    onFinish: function(){
+        //howiefh
+        // $("idCalendarYear").innerHTML = this.Year; $("idCalendarMonth").innerHTML = this.Month;
+        $$("idCalendarYear").innerHTML = "<a href='/" + "archives/" + this.Year + "/'>" + this.Year + " "+ "</a>";
+        if (this.Month < 10) {
+            $$("idCalendarMonth").innerHTML = "<a href='/" + "archives/" + this.Year + "/" + "0" + this.Month + "/'>" + " " + this.Month + " " + "</a>";
+        } else {
+            $$("idCalendarMonth").innerHTML = "<a href='/" + "archives/" + this.Year + "/" + this.Month + "/'>" + " " + this.Month + " " + "</a>";
+        }
+
+        // var flag = [10,15,20];
+        // for(var i = 0, len = flag.length; i < len; i++){
+            // this.Days[flag[i]].innerHTML = "<a href='javascript:void(0);' onclick=\"alert('日期是:"+this.Year+"/"+this.Month+"/"+flag[i]+"');return false;\">" + flag[i] + "</a>";
+        // }
+
+        
+            var postdate = new Date("Mon Mar 23 2015 00:00:00 GMT+0800");
+            if (postdate.getFullYear() == this.Year && postdate.getMonth()+1 == this.Month) {
+                var day = postdate.getDate();
+                this.Days[day].innerHTML = "<a href='/2015/03/23/周记0322/' title='揣着怀念向前走'>" + day + "</a>";
+            }
+    
+            var postdate = new Date("Fri Dec 12 2014 10:40:41 GMT+0800");
+            if (postdate.getFullYear() == this.Year && postdate.getMonth()+1 == this.Month) {
+                var day = postdate.getDate();
+                this.Days[day].innerHTML = "<a href='/2014/12/12/hello-world/' title='Hello World'>" + day + "</a>";
+            }
+    
+            var postdate = new Date("Tue Mar 31 2015 00:00:00 GMT+0800");
+            if (postdate.getFullYear() == this.Year && postdate.getMonth()+1 == this.Month) {
+                var day = postdate.getDate();
+                this.Days[day].innerHTML = "<a href='/2015/03/31/Linux学习笔记/' title='Linux学习笔记'>" + day + "</a>";
+            }
+    
+
+        //howiefh
+    }
+});
+
+$$("idCalendarPre").onclick = function(){ cale.PreMonth(); }
+$$("idCalendarNext").onclick = function(){ cale.NextMonth(); }
+</SCRIPT>
+
+  
+<div class="widget tag">
+  <h3 class="title">Recent Posts</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2015/03/31/Linux学习笔记/">Linux学习笔记</a>
+      </li>
+    
+      <li>
+        <a href="/2015/03/23/周记0322/">揣着怀念向前走</a>
+      </li>
+    
+      <li>
+        <a href="/2014/12/12/hello-world/">Hello World</a>
+      </li>
+    
+  </ul>
+</div>
+
 </aside>
     <div class="clearfix"></div>
   </div>
