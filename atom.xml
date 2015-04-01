@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Jasonc85's blog]]></title>
+  <subtitle><![CDATA[Fortunately, or unfortunately, no one will see your struggle]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-03-31T08:46:43.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Jason Cheng]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Linux学习笔记]]></title>
+    <link href="http://yoursite.com/2015/03/31/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2015/03/31/Linux学习笔记/</id>
+    <published>2015-03-30T16:00:00.000Z</published>
+    <updated>2015-03-31T08:46:43.000Z</updated>
+    <content type="html"><![CDATA[<p>《鸟哥的私房菜》学习笔记 19/11/2014-<br><em>打卡 1/1</em></p>
+<h2 id="第三章_主机规划与磁盘分区"><strong>第三章 主机规划与磁盘分区</strong></h2><ul>
+<li>point 1</li>
+<li>point 2</li>
+<li>point 3</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>《鸟哥的私房菜》学习笔记 19/11/2014-<br><em>打卡 1/1</em></p>
+<h2 id="第三章_主机规划与磁盘分区"><strong>第三章 主机规划与磁盘分区</strong></h2><ul>
+<li>point 1</li>
+<li>point]]>
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[揣着怀念向前走]]></title>
+    <link href="http://yoursite.com/2015/03/23/%E5%91%A8%E8%AE%B00322/"/>
+    <id>http://yoursite.com/2015/03/23/周记0322/</id>
+    <published>2015-03-22T16:00:00.000Z</published>
+    <updated>2015-03-31T08:38:52.000Z</updated>
+    <content type="html"><![CDATA[<p>@1901咖啡厅 w/凝子</p>
+<p>凝子提议每周写一篇周记，权当记录生活。嘴上爽快答应，提起笔，却不知从何说起。</p>
+<p>距离硕士毕业，304天，那时候，立志要在美国找到一份好的工作。</p>
+<p>距离离开美国回到北京，227天，那时候，期望和凝子在北京好好生活。</p>
+<p>距离开始在Dolby工作，125天，那时候，决心要好好努力工作，干出一番事业。<br><a id="more"></a><br>偶尔还是会怀念Johns Hopkins，想起rec center，想起Towson Town<br>Center。那时候，告诉自己，以后有机会一定要回到美国。</p>
+<p>多么丰富而崇高的理想。但是，失意而骨感的现实。</p>
+<p>Tasklist上雄心壮志的各种计划，在自身的种种借口下，也化为最终的不了了之。看似忙碌的生活，其实空虚而乏味，之后触及底线，无法忍受，再一次雄心壮志，再度坠落。再这样的往复循环中，我变成了自己曾经最鄙视的那类人。</p>
+<p>所以开始喜欢怀念过去，因为那时的自己，可以慰藉现在。不论如今怎样颓废，至少曾经NB。</p>
+<p>一般来说，写到这儿，应该话锋一转，开始展望未来，畅言如何励精图治。但是，那或许只是一种自欺欺人的方式。那种方式。我用了24年。</p>
+<p>严格来说，这不算一篇周记，也不是一篇励志贴，只是觉得好像过了很久，发生了很多，我还是应该记录些什么，尽管大多数都已模糊不清。</p>
+<p>开始习惯每天都去健身房，练到第二天走不动路，练到第二天直不起腰。</p>
+<p>开始喜欢跑步，让我找回坚持的快乐。</p>
+<p>开始找回静心的状态，踏实做事儿，安心做事儿。</p>
+<p>就像最开始告诉自己的，peace and passion。</p>
+<p>兜里揣着怀念，向前走。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>@1901咖啡厅 w/凝子</p>
+<p>凝子提议每周写一篇周记，权当记录生活。嘴上爽快答应，提起笔，却不知从何说起。</p>
+<p>距离硕士毕业，304天，那时候，立志要在美国找到一份好的工作。</p>
+<p>距离离开美国回到北京，227天，那时候，期望和凝子在北京好好生活。</p>
+<p>距离开始在Dolby工作，125天，那时候，决心要好好努力工作，干出一番事业。<br>]]>
+    
+    </summary>
+    
+      <category term="周记， 随笔" scheme="http://yoursite.com/tags/%E5%91%A8%E8%AE%B0%EF%BC%8C-%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2014/12/12/hello-world/"/>
+    <id>http://yoursite.com/2014/12/12/hello-world/</id>
+    <published>2014-12-12T02:40:41.000Z</published>
+    <updated>2015-03-31T07:57:50.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
