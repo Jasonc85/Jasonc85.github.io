@@ -22,6 +22,7 @@
   <link rel="alternate" href="/atom.xml" title="Jasonc85&#39;s blog" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
   <!--howiefh scrolltop begin-->
   <SCRIPT type=text/javascript src="/js/scrolltop.js"></SCRIPT>
   <!--howiefh scrolltop end-->
@@ -32,6 +33,38 @@
 
 </head>
 
+<script>
+var io10blogFirebase = new Firebase("https://jasonc85.firebaseio.com/");
+
+var current_url = decodeURI(window.location.pathname.replace(new RegExp('\\/|\\.', 'g'),"_"));
+
+io10blogFirebase.child("sum").on("value", function(data) {
+  var current_counter = data.val();
+  if( $("#sum_counter").length > 0  && current_counter >1 ){
+      $("#sum_counter").html(
+   	   	" | Total Visited <font style='color:black'>"+ current_counter +"</font> "
+       );
+  };
+});
+
+io10blogFirebase.child("detail/"+current_url).on("value", function(data){
+	var detail_counter = data.val();
+	if($("#detail_counter").length > 0 && detail_counter > 1){
+		$("#detail_counter").html(
+			" Page Visited <font style='color:black'>"+ detail_counter +"</font> "
+		);
+	}
+});
+
+io10blogFirebase.child("sum").transaction(function (current_counter) {
+  return (current_counter || 0) + 1;
+});
+
+io10blogFirebase.child("detail/"+current_url).transaction(function (current_counter) {
+  return (current_counter || 0) + 1;
+});
+
+</script>
 
 <body>
   <header id="header" class="inner"><div class="alignleft">
@@ -288,7 +321,19 @@ $$("idCalendarNext").onclick = function(){ cale.NextMonth(); }
   &copy; 2015 Jason Cheng
   
 </div>
-<div class="clearfix"></div></footer>
+<div class="clearfix"></div>
+
+<footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      .
+      <font id="sum_counter"></font>
+      <font id="detail_counter"></font>
+    </div>
+  </div>
+</footer></footer>
   <!--howiefh scrolltop begin-->
   <DIV style="DISPLAY: none" id=goTopBtn title="Scroll Back to Top"><IMG border=0 src="/images/top.jpg"></DIV>
   <SCRIPT type=text/javascript>goTopEx();</SCRIPT>
