@@ -63,7 +63,7 @@ io10blogFirebase.child("sum").transaction(function (current_counter) {
 io10blogFirebase.child("detail/"+current_url).transaction(function (current_counter) {
   return (current_counter || 0) + 1;
 });
-<script>
+</script>
 
 <body>
   <header id="header" class="inner"><div class="alignleft">
@@ -171,6 +171,21 @@ io10blogFirebase.child("detail/"+current_url).transaction(function (current_coun
 
 </div></div>
     <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form>
+      <input type="text" id="st-search-input" class="st-search-input" />
+  </form>
+</div>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','vqX8LBBd_hcXscKUw76B');
+</script>
+
   <div class="widget tag">
 <h3 class="title">About me</h3>
 <ul class="entry">
@@ -345,6 +360,8 @@ $$("idCalendarNext").onclick = function(){ cale.NextMonth(); }
   $('.fancybox').fancybox();
 })(jQuery);
 </script>
+
+
 
 </body>
 </html>
