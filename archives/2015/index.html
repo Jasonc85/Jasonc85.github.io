@@ -44,7 +44,7 @@ io10blogFirebase.child("sum").on("value", function(data) {
       $("#sum_counter").html(
    	   	" | Total Visited <font style='color:black'>"+ current_counter +"</font> "
        );
-  };
+  };0
 });
 
 io10blogFirebase.child("detail/"+current_url).on("value", function(data){
@@ -63,8 +63,7 @@ io10blogFirebase.child("sum").transaction(function (current_counter) {
 io10blogFirebase.child("detail/"+current_url).transaction(function (current_counter) {
   return (current_counter || 0) + 1;
 });
-
-</script>
+<script>
 
 <body>
   <header id="header" class="inner"><div class="alignleft">
@@ -118,13 +117,6 @@ io10blogFirebase.child("detail/"+current_url).transaction(function (current_coun
   </div>
 </div></div>
     <aside id="sidebar" class="alignright">
-  <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="Search">
-    <input type="hidden" name="q" value="site:yoursite.com">
-  </form>
-</div>
-
   <div class="widget tag">
 <h3 class="title">About me</h3>
 <ul class="entry">
