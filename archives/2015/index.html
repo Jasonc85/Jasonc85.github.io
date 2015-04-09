@@ -64,7 +64,6 @@ io10blogFirebase.child("detail/"+current_url).transaction(function (current_coun
   return (current_counter || 0) + 1;
 });
 </script>
-
 <body>
   <header id="header" class="inner"><div class="alignleft">
   <h1><a href="/">Jasonc85&#39;s blog</a></h1>
@@ -131,15 +130,6 @@ io10blogFirebase.child("detail/"+current_url).transaction(function (current_coun
 
   _st('install','vqX8LBBd_hcXscKUw76B');
 </script>
-
-  <div class="widget tag">
-<h3 class="title">About me</h3>
-<ul class="entry">
-<li>Jason CHENG</li>
-<li>Coder and Baller</li>
-<li>chengzengwei@gmail.com</li>
-</ul>
-</div>
 
   
 <div class="widget tag">
@@ -238,11 +228,23 @@ $$("idCalendarNext").onclick = function(){ cale.NextMonth(); }
 
 
   <div class="widget tag">
-<h3 class="title">Links</h3>
-<ul class="entry">
-<li><a href="http://chenqingning.com//" title="NingZi's Blog">NingZi's Blog</a></li>
+<h3 class="title">Recent Comments</h3>
+<ul style="padding:0 20px 15px 20px">
+<div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70">
+</div>
 </ul>
 </div>
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"jasocn85"};
+	  (function() {
+		  var ds = document.createElement('script');
+		  ds.type = 'text/javascript';ds.async = true;
+		  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		  ds.charset = 'UTF-8';
+		  (document.getElementsByTagName('head')[0] 
+		   || document.getElementsByTagName('body')[0]).appendChild(ds);
+	  })();
+</script>
 
   
 <div class="widget tag">
@@ -267,6 +269,13 @@ $$("idCalendarNext").onclick = function(){ cale.NextMonth(); }
 
   <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=300&skin=2&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1586224210&verifier=90bc37f2&dpc=1"></iframe>
 
+
+  <div class="widget tag">
+<h3 class="title">Links</h3>
+<ul class="entry">
+<li><a href="http://chenqingning.com//" title="NingZi's Blog">NingZi's Blog</a></li>
+</ul>
+</div>
 </aside>
     <div class="clearfix"></div>
   </div>
